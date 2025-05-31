@@ -16,12 +16,11 @@ function generateRandomColor() {
 let changerang ;
 
 startBtn.addEventListener("click",()=>{
-    setTimeout(()=>{
     changerang = setInterval(()=>{
         for (let i = 0; i <boxId.length; i++) {
             boxId[i].style.backgroundColor = generateRandomColor()
         }
-      },500)},1000)
+      },500)
 })
 
 clearBtn.addEventListener("click",()=>{
