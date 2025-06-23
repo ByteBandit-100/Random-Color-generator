@@ -14,7 +14,7 @@ git clone https://github.com/ByteBandit-100/Random-Color-generator.git
 ```
 2. Navigate to the project directory:
 ```
-cd random-color-generator
+cd Random-Color-generator
 ```
 3. Open the `index.html` file in your web browser.
 
